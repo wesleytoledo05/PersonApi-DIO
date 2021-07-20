@@ -1,11 +1,8 @@
 <h2>Sistema de gerenciamento de pessoas - API REST com Spring Boot</h2>
 
 
-Para executar o projeto no terminal, digite o seguinte comando:
+Para executar o projeto vá até a pasta "PersonapiApplication.java" e rode a aplicação clicando em "run" ou apertando "f5".
 
-```shell script
-mvn spring-boot:run 
-```
 
 Após executar o comando acima, digite o seguinte endereço e visualizar a execução do projeto:
 
