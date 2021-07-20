@@ -23,17 +23,17 @@ public class PersonDto {
 
     @NotEmpty
     @Size(min = 2, max = 100)
-    private String firstName;
+    private String first_Name;
 
     @NotEmpty
     @Size(min = 2, max = 100)
-    private String lastName;
+    private String last_Name;
 
     @NotEmpty
     @CPF
     private String cpf;
 
-    private String birthDate;
+    private String birth_Date;
 
     @Valid
     @NotEmpty

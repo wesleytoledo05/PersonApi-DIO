@@ -30,15 +30,15 @@ public class Person {
     private Long id;
 
     @Column(nullable = false)
-    private String firstName;
+    private String first_Name;
 
     @Column(nullable = false)
-    private String lastName;
+    private String last_Name;
 
     @Column(nullable = false, unique = true)
     private String cpf;
 
-    private LocalDate birthDate;
+    private LocalDate birth_Date;
 
     @Builder.Default
     @OneToMany(fetch = FetchType.LAZY, cascade = {CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REMOVE})
